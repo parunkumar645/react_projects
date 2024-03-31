@@ -5,14 +5,14 @@ import "bootstrap/dist/css/bootstrap.css";
 import "./index.css";
 // import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import Usercard from "./Projects/Usercard";
-// import Qrcode from "./Projects/Qrcode";
+// import Usercard from "./Projects/Usercard";
+import Qrcode from "./Projects/Qrcode";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <Usercard />
-    {/* <Qrcode /> */}
+    {/* <Usercard /> */}
+    <Qrcode />
   </React.StrictMode>
 );
 
